@@ -6,15 +6,8 @@ import br.com.caelum.leilao.dominio.Leilao;
 public class Avaliador {
 
     private double maiorDeTodos = Double.NEGATIVE_INFINITY;
-
-
-
     private double menorDeTodos = Double.POSITIVE_INFINITY;
-
     double total = 0;
-
-
-
     private double media = 0;
 
     public void avalia (Leilao leilao){
